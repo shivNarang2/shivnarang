@@ -29,19 +29,20 @@ nav ul li{
 .firstSection{
     display: flex;
     justify-content: space-around;
-    margin: 80px 0;
+    margin: 70px 100px 0 30px;
 }
 .firstSection div{
-    width: 30%;
+    width: 50%;
 }
 .leftSection{
   flex-basis: 60%;
-    font-size: 1.7rem;
-    margin: 70px 0;
+    font-size: 4rem;
+    margin: 50px 20px 0px 20px;
 }
 .rightSection img{
-    width: 130%;
-    height: 100%;
+    width: 120%;
+    height: 130%;
+   
     
 }
 .purple{
