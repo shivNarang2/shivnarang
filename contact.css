@@ -4,6 +4,10 @@ body{
   color: white;
     background-color: rgb(0, 0,33) ;
     font-size: 14px;
+    background-image: url('contact.jpeg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 .container
 {
@@ -25,7 +29,7 @@ color: blue;
 .contact-right{
     flex-basis: 60%;
     padding: 40px;
-    background: rgb(2, 2, 3);
+  background: rgb(71, 71, 193); 
   
 }
 h1{
@@ -72,14 +76,154 @@ button{
     font-weight: 600;
     margin-bottom: 30px;
 }
-.contact-right h3{
-    
-    font-weight: 600;
-    margin-bottom: 30px;
-}
+
 tr td:first-child{
     padding-right: 20px;
 }
 tr td{
     padding-top: 30px;
 }
+.footer{
+    text-align: center;
+    margin-top: 18%;
+    }
+    nav{
+        display: flex;
+        justify-content:space-around;
+        align-items: center;
+        height: 80px;
+        /* background-color: rgb(18,18,62); */
+    }
+    nav ul{
+    display: flex;
+    justify-content:center ;
+    
+    }
+    nav ul li{
+    list-style: none;
+    margin: 0 23px;
+    }
+    @media only screen and (max-width: 1000px) {
+    
+        *{
+            margin:0;
+            padding: 0;
+        }
+       
+        nav{
+            margin-left: 30px 40px 10px 0px;
+            display: flex;
+            justify-content:space-around;
+            align-items: center;
+            height: 80px;
+            /* background-color: rgb(25, 2, 49); */
+        }
+        nav ul{
+        
+            margin-left: 10px 50px 0px 0px;
+        display: flex;
+        justify-content:center ;
+        
+        }
+        nav ul li{
+           
+        list-style: none;
+        margin: 50px 15px 43px  -8px;
+        }
+        .left{
+            margin-left: 5%;
+        font-size:1rem ;
+        }
+        body{
+            font-family: 'Poppins', sans-serif;
+          color: white;
+            background-color: rgb(0, 0,33) ;
+            font-size: 14px;
+            background-image: url('contact.jpeg');
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          background-size: cover;
+        }
+        .container
+        {
+            width: 100%;
+            margin: 50px auto;
+        }
+        .contact-box{
+ width: 400px;
+ margin-left: 10px;
+            background: white;
+             display: flex; 
+            color: rgba(251, 251, 248, 0.964);
+        }
+        .contact-left{
+            margin-right: 30%;
+        color: rgb(70, 70, 202);
+            width: 5px;
+            flex-basis: 100%;
+            padding: 40px 60px;
+        
+        }
+         .contact-right{
+            flex-basis: 70%;
+            padding: 40px;
+          background: rgb(58, 58, 213); 
+          margin-right:0%;
+           
+        }
+        h1{
+            margin-bottom:10px; ;
+        }
+        .container p{
+            margin-bottom: 40px;
+        }
+        .input-row{
+           
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+        .input-row .input-group{
+           
+            
+        }
+        
+        input{
+            width: 90%;
+            border :none;
+            border-bottom:1px solid #ccc ;
+            outline:none;
+            padding-bottom: 5px;
+        }
+        textarea{
+            width:100%;
+            border: 1px solid #ccc;
+           
+        }
+        button{
+            background: #1c00b5;
+           width: 100px;
+           border: none;
+           outline: none;
+           color: white;
+           height: 35px;
+           border-radius: 30px;
+           margin-top: 20px;
+           box-shadow: 0px 5px 15px 0px,rgba(28,0,181,0.3);
+        }
+        .contact-left h3{
+            color: #1c00b5;
+            font-weight: 600;
+            margin-bottom: 30px;
+        }
+        .contact-right h3{
+            color: white;
+            font-weight: 600;
+            margin-bottom: 30px;
+        }
+        tr td:first-child{
+            padding-right: 20px;
+        }
+        tr td{
+            padding-top: 30px;
+        }
+    }

@@ -2,28 +2,42 @@
 <html lang="en">
 
 <head>
+    <link rel="icon" href="contact.png" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="contact.css" <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>CONTACT ME</title>
 </head>
 
 <body>
+    <header>
+        <nav>
+            <div class="left">Shiv's Website</div>
+            <div class="right">
+              <ul>
+               <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact Me</a></li>
+                <li><a href="hobbies.html">Hobbies</a></li>
+              </ul>
+              </div>
+        </nav>
+    </header>
     <div class="container">
-        <h1>Connect with us</h1>
-        <p>We would love to respond to your queries and help you
-            succeed.Feel free to get in touch with us.</p>
+        <h1>Contact Me</h1>
+        <p>I would love to respond to your queries and help you
+            succeed.Feel free to get in touch with me.</p>
         </p>
         <div class="contact-box">
             <div class="contact-left">
                 <h3>Sent your request</h3>
-                <form action="https://formsubmit.co/narangshiv2@gmail.com" method="POST">
+                <form  action="mailto:narangshiv2@gmail.com" method="post" enctype="text/plain">
                     <div class="input-row">
                         <div class="input-group">
                             <label>Name</label>
-                            <input type="text" name="name" placeholder="Your Name">
+                            <input name="name"  placeholder="Your Name">
                         </div>
                         <div class="input-group">
                             <label>Phone</label>
@@ -44,13 +58,14 @@
 
                 <label>Message</label>
                 <textarea name="msg" placeholder="Your Message" cols="30"rows="5"></textarea>
-                <button type="submit">SUBMIT</button>
+              
+             <button type="submit" value="send" >SUBMIT</button>
 
 
                 </form>
             </div>
-        
-        <div class="contact-right">
+         
+        <!-- <div class="contact-right">
             <h3>Reach us</h3>
             <table>
                 <tr>
@@ -70,10 +85,17 @@
 
             </table>
 
-        </div>
+        </div>   -->
         </div>
     </div>
-    
+    <section class ="footer"> 
+        <hr>
+       <p>copyright@shivnarang<br>
+        contact me:Email:narangshiv2@gmail.com<br>
+    phone no-7900678944
+    <br>address;Hostel 1,IIT Bombay
+       </p>
+     </section>
 
 </body>
 
